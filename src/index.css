@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #4C4C6D !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  padding-bottom: 20px;
+  margin-top: 20px !important;
+  background-color: #B8DFD8;
+  color: #4C4C6D !important;
+}
+
+.navbar{
+  text-align: center;
+}
+
+.moviecard{
+  margin-bottom: 10px;
+  background-color: #E8F6EF !important;
+}
+.moviename{
+  padding:10px 10px 0 10px;
+}
+
+.deletebutton{
+  margin:28px 16px 10px 10px ;
+}
+
+.empty{
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 20px;
 }
