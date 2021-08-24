@@ -1,39 +1,46 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: #4C4C6D !important;
+  background-color: #4c4c6d !important;
 }
 
-.App{
+.App {
   padding-bottom: 20px;
   margin-top: 20px !important;
-  background-color: #B8DFD8;
-  color: #4C4C6D !important;
-}
-
-.navbar{
+  background-color: #b8dfd8;
+  color: #4c4c6d !important;
   text-align: center;
 }
 
-.moviecard{
+.navbar {
+  text-align: center;
+}
+
+.moviecard {
   margin-bottom: 10px;
-  background-color: #E8F6EF !important;
+  background-color: #e8f6ef !important;
 }
-.moviename{
-  padding:10px 10px 0 10px;
-}
-
-.deletebutton{
-  margin:28px 16px 10px 10px ;
+.moviename {
+  padding: 10px 10px 0 10px;
 }
 
-.empty{
+.deletebutton {
+  margin: 28px 16px 10px 10px;
+}
+
+.empty {
   text-align: center;
   font-weight: 600;
   padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .cardTile {
+    text-align: start;
+  }
 }
